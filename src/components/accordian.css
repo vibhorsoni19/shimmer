@@ -1,0 +1,20 @@
+.accordian {
+  margin: auto;
+  width: 50%;
+  margin-top: 5px;
+}
+.accordian_container {
+  border: 2px solid black;
+  border-radius: 5px;
+}
+.accordian_title {
+  font-weight: bold;
+  font-size: 20px; 
+  background-color: lightgrey;
+  padding: 4px;
+  display: flex; 
+  justify-content: space-between;
+}
+.accordian_body {
+  padding: 2px;
+}

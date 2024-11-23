@@ -28,3 +28,44 @@
   width: 96px;
   justify-content: center;
 }
+.heading{
+  background-color: #f4f4f4;
+  padding: 1rem;
+  border-bottom: 1px solid #ddd;
+}
+.header-container{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+}
+.logo{
+font-size: 1.5rem;
+font-weight: bold;
+color: #333;
+margin: 0;
+}
+
+.navStyle{
+  display: flex;
+  gap: 1.5rem;
+}
+
+.navStyle a{
+  text-decoration: none;
+  color: #333;
+  font-size: 1rem;
+  transition:color 0.3s ease;
+}
+.navStyle a:hover {
+  color: #007bff; /* Add hover effect with a blue color */
+}
+.language-selector {
+  padding: 0.3rem 0.6rem; 
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 5px; /* Rounded corners */
+  background-color: #fff;
+  color: #333;
+
+}
